@@ -136,6 +136,12 @@ header button {
 
 #card-container img {
     width: 100%;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+
+#card-container img:hover {
+    transform: scale(1.01);
 }
 
 .card {
